@@ -1,0 +1,30 @@
+@use 'functions' as *;
+
+.header {
+    padding-top: fluid(10, 20, 1440px);
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+
+    }
+    &__record {
+        display: flex;
+        align-items: center;
+        gap: fluid(4, 8, 1440px);
+    }
+    &__record-image {
+
+    }
+    &__record-text {
+        color: hsl(240, 3%, 46%);
+        font-size: fluid(9, 18, 1440px);
+    }
+    &__record-result {
+        color: hsl(0, 0%, 100%);
+        font-size: fluid(10, 20, 1440px);
+    }
+}
